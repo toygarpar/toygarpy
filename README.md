@@ -1,5 +1,5 @@
 🧰 ToygarPy - Python Programlama Koleksiyonu
-ToygarPy, Python programlama dili , veri bilimi ve uygulama geliştirme konularında çeşitli örnekler ve araçlardan oluşan açık kaynak bir koleksiyondur. Hem yeni başlayanlar hem de ileri düzey kullanıcılar için hazırlanmıştır.
+ToygarPy, Python programlama dili , veri bilimi ve uygulama geliştirme konularında kendime referans kütüphanesi oluşturmak için derlediğim çeşitli örnekler ve araçlardan oluşan açık kaynak bir koleksiyondur. Ortadüzey ve ileri düzey kullanıcılar için uygundur.
 
 
 
@@ -19,12 +19,15 @@ ad-client.py: İstemci tarafında veri gönderimi ve alımı işlemlerini gerçe
 UIcalculator.py, _checkboxForm.py, _combobox.py, _datetime.py, _listview.py, _msgbox.py, _radiobutton.py, _table.py: PyQt5 kullanılarak oluşturulmuş çeşitli kullanıcı arayüzü (UI) bileşenleri örnekleridir. Her biri farklı bir UI öğesinin nasıl oluşturulacağını ve kullanılacağını göstermektedir.
 
 bootstrap klasörü
+
 bootsrap kod örnekleri içerir.
 
-ad-databases ve SQLDatabase
+ad-databases ve SQLDatabase klasörleri
+
 Python ve SQL Veritabanı kullanımı ve kod örnekleri içerir.
 
-django
+django klasörü
+
 django ile web geliştirmeye giriş konularına dair kodlar
 
 
