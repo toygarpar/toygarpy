@@ -1,0 +1,9 @@
+1 - Vestel
+2 - Sony
+3 - Samsung
+4.5 - AOC
+4 - AOC
+5 - LG
+6 - Casper
+7 - MSI
+

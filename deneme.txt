@@ -1,0 +1,47 @@
+Operation
+
+- `output = open(r'C:\data', 'w')`  - Çıkış dosyası oluştur ('w' yazma anlamına gelir)
+- `input = open('data', 'r')`  - Giriş dosyası oluştur ('r' okuma anlamına gelir)
+- `input = open('data')`  - Önceki satırla aynı ('r' varsayılan değerdir)
+- `a_string = input.read()`  - Tüm dosyayı tek bir string içine oku
+- `a_string = input.read(N)`  - Sonraki N karakteri (veya baytı) bir string içine kadar oku
+- `a_string = input.readline()`  - Sonraki satırı (newline \n dahil) bir string içine oku
+- `liste = input.readlines()`  - Tüm dosyayı satır string'lerinden oluşan bir listeye oku (\n ile)
+- `output.write(a_string)`  - Bir dizi karakteri (veya baytı) dosyaya yaz
+- `output.writelines(liste)`  - Bir listedeki tüm satır string'lerini dosyaya yaz
+- `output.close()`  - Manuel kapatma
+- `output.flush()`  - Dosya tamponunu diske kapatmadan yaz
+- `anyFile.seek(n)`  - Sonraki işlem için dosya konumunu N ofsetine değiştir
+- `for line in open('data'): use line`  - Dosya iterator'leri satır satır okur
+- `open('f.txt', encoding='utf-8')`  - Python 3.X Unicode metin dosyaları (str string'ler)
+- `open('f.bin', 'rb')`  - Python 3.X bayt dosyaları (bytes string'ler)
+
+
+
+
+
+
+
+
+
+
+Operation
+output = open(r'C:\data', 'w')  - Create output file ('w' means write)
+input = open('data', 'r')  - Create input file ('r' means read)
+input = open('data') - Same as prior line ('r' is the default)
+aString = input.read() -Read entire file into a single string
+aString = input.read(N) - Read up to next N characters (or bytes) into a string
+aString = input.readline() -Read next line (including \n newline) into a string
+aList = input.readlines() - Read entire file into list of line strings (with \n)
+output.write(aString)    - Write a string of characters (or bytes) into file
+output.writelines(aList)  -   Write all line strings in a list into file
+output.close()  - Manual close
+output.flush()  - Flush output buffer to disk without closing
+anyFile.seek(N)  - Change file position to offset N for next operation
+for line in open('data'): use line -  File iterators read line by line
+open('f.txt', encoding='latin-1') - Python 3.X Unicode text files (str strings)
+open('f.bin', 'rb') - Python 3.X bytes files (bytes strings)
+
+
+
+

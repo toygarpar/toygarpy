@@ -1,0 +1,11 @@
+{
+  "Id": 1,
+  "ProductName": "AMD Ryzen 7900 Chipset",
+  "Price": 15000,
+  "Rating": 4.9,
+  "Category": "CPU",
+  "Options": [
+    "Stock Cooler",
+    "Tray"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "users": {
+        "toygarpar": {
+            "fname": "Toygar",
+            "lname": "Par",
+            "age": 50
+        },
+        "böçüşpar": {
+            "fname": "Böçüş",
+            "lname": "Par"
+        },
+        "tacopar": {
+            "fname": "Taco",
+            "lname": "Par"
+        }
+    },
+    "products": {
+        "1": {
+            "ProductName": "AMD Ryzen 9 7900 Chipset",
+            "Price": 15000,
+            "Rating": 4.9,
+            "Category": "CPU",
+            "Options": [
+                "Stock Cooler",
+                "Tray"
+            ]
+        },
+        "2": {
+            "ProductName": "AMD Ryzen 7 7700 Chipset",
+            "Price": 13000,
+            "Rating": 4.7,
+            "Category": "CPU",
+            "Options": [
+                "Stock Cooler",
+                "Tray"
+            ]
+        },
+        "3": {
+            "ProductName": "Intel Core i7 - 1165G7 Tiger Lake-UP3 Chipset",
+            "Price": 14000,
+            "Rating": 4.7,
+            "Category": "CPU",
+            "Options": "Stock Cooler"
+        },
+        "4": {
+            "ProductName": "Intel Core i9-14900K Masaüstü İşlemci 24 Çekirdekli 6.0GHZ Chipset",
+            "Price": 19999,
+            "Rating": 4.8,
+            "Category": "CPU",
+            "Options": "Liquid Cooling necessary"
+        },
+        "5": {
+            "ProductName": "Intel Core i5 - 12400F Chipset",
+            "Price": 4400,
+            "Rating": 4.6,
+            "Category": "CPU",
+            "Options": "Stock Cooler"
+        }
+    }
+}

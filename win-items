@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 24 21:52:59 2024
+
+@author: toygar
+"""
+
+import PyQt5
+
+import sys  #uygulamaya komut saturundan argüman göndermek için
+
+from PyQt5 import QtWidgets
+
+from PyQt5.QtWidgets import QApplication, QMainWindow, QToolTip
+
+from PyQt5.QtGui import QIcon
+
+
+
+
+def window():
+    app = QApplication(sys.argv)
+    win = QMainWindow()
+
+    def clicked(self):
+        print("Buttona Tıklandı! Name: " + txt_name.text() +" , Surname: " + txt_surname.text())
+
+
+
+    win.setWindowTitle("My First App")
+    
+    win.setGeometry(200,200,500,500)   #pencerinin boyutu, konumu
+    
+    win.setWindowIcon(QIcon("icon.png"))
+    
+    win.setToolTip("my tool tip")
+    
+    
+    lbl_name = QtWidgets.QLabel(win)    
+    lbl_name.setText("Adınız: ")    
+    lbl_name.move(50,30)
+    
+    
+    lbl_surname = QtWidgets.QLabel(win)
+    lbl_surname.setText("Soyadınız: ")
+    lbl_surname.move (50,70)
+
+    
+    txt_name = QtWidgets.QLineEdit(win)
+    txt_name.move(150,30)
+
+    txt_surname = QtWidgets.QLineEdit(win)
+    txt_surname.move(150,70)
+
+
+    btn_save = QtWidgets.QPushButton(win)
+    btn_save.setText("Kaydet")
+    btn_save.move(150,110)
+    btn_save.clicked.connect(clicked)
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    win.show()
+    sys.exit(app.exec_())
+
+
+
+window()
+
+
+
+
+
+
+#QLabel
+#QComboBox
+#QCheckBox
+#QRadioButton
+#QTAbleWidget
+#QLineEdit
+#QSlider
+#QProgressaAr

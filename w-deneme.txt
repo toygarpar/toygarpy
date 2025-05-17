@@ -1,0 +1,7 @@
+Toygar Par
+Böçüş Par
+Buzz Par
+1, 2, 3
+['Buzz', 'Taco', 'Çıtır', [1, 2, 3, [1, 2, 3]]]
+{'x ': 1, 'y': 2}
+r+ modunda son satıra ekleme

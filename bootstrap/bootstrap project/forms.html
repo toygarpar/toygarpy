@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <title>Bootstrap Forms</title>
+        <style>
+            
+            
+            .w {
+                width: 200px;
+            }
+            
+        </style>
+    </head>
+    <body class="w-75 mx-auto my-4">
+    
+    
+    
+    
+    
+    
+        <h1>Forms</h1> 
+        
+        
+        
+        
+        <form>
+            <div class="form-group">
+                      
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter Name">
+                
+            </div>
+            
+            <div class="form-group">
+                      
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter Email">
+                <small class="form-text text-muted">
+                    Please enter a valid email address
+                </small>
+               
+                
+            </div>
+            
+             <div class="form-group">
+                      
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter Password">
+                
+            </div>
+            
+            
+            
+            <div class="form-group">
+                      
+                <label for="city">City</label>
+                <select name="city" id="city" class="form-control">
+                    <option value="0">İzmir</option>
+                    <option value="1">Ankara</option>
+                    <option value="2">Bursa</option>
+                </select>    
+                
+            </div>
+            
+            
+            <div class="form-group">
+                      
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                
+            </div>
+            
+            
+                <h4>Hobbies</h4>
+                <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox">Running
+                    </label>
+                </div>
+                
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox">Cycling
+                    </label>
+                </div>
+                
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox">Walking
+                    </label>
+                </div>
+                
+                
+                
+                
+                
+            </div>
+            
+            
+            
+            <div class="custom-control custom-checkbox bg-warning">
+                <input type="checkbox" class="form-check-input" id="ch">
+                <label class="custom-contol-label" for="ch">Check</label>
+                
+                
+            </div>
+            
+            
+            <div class="custom-control custom-radio bg-danger">
+                <input type="radio" class="form-radio-input" id="radio">
+                <label class="custom-contol-label" for="radio">Check</label>
+                
+                
+            </div>
+            
+            
+            <br><br>
+            <div>
+                <div class="custom-control custom-radio custom-control-inline bg-primary">
+                <input type="radio" name="ex" class="form-radio-input" id="radio1">
+                <label class="custom-contol-label" for="radio1">Custom Radio 1</label>
+
+
+                </div>
+                
+                <div class="custom-control custom-radio custom-control-inline bg-danger">
+                <input type="radio" name="ex" class="form-radio-input" id="radio2">
+                <label class="custom-contol-label" for="radio2">Custom Radio 2</label>
+
+
+                </div>
+                
+                
+                
+                
+            </div>
+            
+            
+            
+            
+            <div class="input-group mt-3">
+                <input type="text" class="form-control">
+                <div claass="input-group-append">
+                   <span class="input-group-text" id="ig">@gmail.com</span>
+                    
+                </div>
+                
+                
+                
+                
+                
+            </div>
+            
+            
+            
+            <div class="input-group mt-3">
+               <div claass="input-group-prepend">
+                   <span class="input-group-text" id="ig2">http://toygarpy.wordpress.com/</span>
+                    
+                </div>
+                <input type="text" class="form-control">
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            
+            <div class="clearfix mt-3">
+                <div class="w-50 float-left">
+                   <div class="form-group">
+                      
+                    <label for="name">Name</label>
+                    <input type="text" id="fname" class="form-control" placeholder="Enter Name">
+                
+                    </div> 
+                </div>
+                
+                <div class="w-50 float-left pl-2">
+                    <div class="form-group">
+                      
+                    <label for="name">Last Name</label>
+                    <input type="text" id="lname" class="form-control" placeholder="Enter Name">
+                
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+        </form>
+
+        
+
+        
+
+        
+        
+        
+        
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
+
+

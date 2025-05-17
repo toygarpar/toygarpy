@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupUlke">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>211</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ülkeler</string>
+    </property>
+    <widget class="QPushButton" name="btn_ulke">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>450</y>
+       <width>121</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ülke Seçimi</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ulke">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>151</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>151</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridUlke">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="Tur">
+        <property name="text">
+         <string>Türkiye</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="Fin">
+        <property name="text">
+         <string>Finlandiya</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="Ger">
+        <property name="text">
+         <string>Almanya</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="Nor">
+        <property name="text">
+         <string>Norveç</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupEdu">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>221</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Eğitim Kurumları</string>
+    </property>
+    <widget class="QPushButton" name="btn_edu">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>450</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eğitim Seçimi</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_edu">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>141</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>141</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridEdu">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="ilk">
+        <property name="text">
+         <string>İlkokul</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="uni">
+        <property name="text">
+         <string>Üniversite</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="lise">
+        <property name="text">
+         <string>Lise</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="mas">
+        <property name="text">
+         <string>Yüksek Lisans</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

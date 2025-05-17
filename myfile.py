@@ -1,0 +1,1 @@
+dize = "Hakkıdır Hakka Tapan Milletimin İstiklal"

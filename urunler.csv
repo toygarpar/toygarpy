@@ -1,0 +1,11 @@
+Id,ProductName,Price,IsActive,Category,Rating
+1,Iphone 13 128 GMb Sİyah,4449,Active,Telefon,5
+2,Honor 200 512 GB 12 GB Ram, 19999, False, Telefon,4.4
+3,Xiaomi Redmi Note 13 Pro 512GB 12GB,15599,Active,Telefon,4.3
+4,Poco C65 256GB 8GB Ram,6999,False,Telefon,4.0
+5,Samsung Galaxy M34 5G 6GB,8599,True,Telefon,4.5
+6,Samsun Galaxy A55 256GB 8GB,18259,True,Telefon,4.6
+7,Iphone 15 128GB Siyah,51999,True,Telefon,4.9
+8,Dell Inspiron 3520 Intel Core i5 8GB 512 GB Ubuntu,13498,True,Bilgisayar,4.2
+9,MacBook Pro,100000,True,Bilgisayar,4.8
+10,MacBook Air,90000,True,Bilgisayar,4.7
